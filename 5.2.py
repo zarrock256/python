@@ -24,7 +24,9 @@ class Testfracs(unittest.TestCase):
 
     def test_is_positive(self):
         self.assertEqual(is_positive([-1,2]),False)
+        self.assertEqual(is_positive([-1,-2]),True)
         self.assertEqual(is_positive([1,2]),True)
+        self.assertEqual(is_positive([0,2]),False)
 
     def test_is_zero(self):
         self.assertEqual(is_zero([0, 2]), True)
@@ -45,7 +47,8 @@ class Testfracs(unittest.TestCase):
         self.assertEqual(shorter([5,10]),[1,2])
         self.assertEqual(shorter([3,9]),[1,3])
         self.assertEqual(shorter([5,25]),[1,5])
-        self.assertEqual(shorter([0,25]),0)
+        self.assertEqual(shorter([0,25]),[0,1])
 
 if __name__ == '__main__':
     unittest.main()     # uruchamia wszystkie testy
+

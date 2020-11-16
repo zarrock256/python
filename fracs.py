@@ -2,10 +2,10 @@ import math
 
 def shorter(result):                #sprowadza ułamek do prostszej postaci
     if result[0]%result[1] == 0:
-        return result[0]/result[1]
+        return [result[0]//result[1],1]
     temp = result[0]
-    result[0] /= math.gcd(result[0],result[1])
-    result[1] /= math.gcd(temp,result[1])
+    result[0] //= math.gcd(result[0],result[1])
+    result[1] //= math.gcd(temp,result[1])
     return result
 
 def add_frac(frac1, frac2):         # frac1 + frac2
@@ -28,7 +28,9 @@ def div_frac(frac1, frac2):        # frac1 / frac2
     return shorter(result)
 
 def is_positive(frac):              # bool, czy dodatni
-    if frac[0] > 0:
+    if frac[0] > 0 and frac[1] > 0:     #Zakładam, że zero nie jest dodatnie
+        return True
+    elif frac[0] < 0 and frac[1] < 0:
         return True
     return False
 
