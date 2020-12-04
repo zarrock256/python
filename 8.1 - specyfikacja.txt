@@ -1,0 +1,13 @@
+SPECYFIKACJA
+Problem: Znalezienie rozwiązań równania liniowego ax + by + c = 0.
+
+DANE WEJŚCIOWE
+Trzy liczby a, b i c, będące współczynnikami w równaniu ax + by+ c = 0.
+
+DANE WYJŚCIOWE
+W zależmności od danych wejściowych mogą być trzy dane wyjściowe:
+1) Komunikat o znalezionym rozwiązaniu x lub y.
+2) Komunikat o tym, że równanie jest sprzeczne.
+3) Komunikat o tym, że równanie jest tożsamościowe.
+4) Komunikat o znalezionej zależności pomiędzy x i y w parach, które spełniają
+   równanie ax + by + c = 0.

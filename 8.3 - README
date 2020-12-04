@@ -1,0 +1,8 @@
+Metoda Monte Carlo słuzy do obliczania liczby Pi na podstawie losowo generowanych
+punktów w obrębie kwadratu, w który wpisany jest okrąg. Mając Odpowiednią liczbę wygenerowanych punktów z
+pewną dozą prawdopodobieństwa jesteśmy w stanie wyliczyć liczbę Pi dzieląc liczbę punktów znajdujących się
+w okręgu, przez liczbę punktów znajdujących się w kwadracie, czyli innymi słowy przez liczbę wszystkich punktów.
+Ja ograniczyłem się do ćwiartki kwadratu i okręgu, ponieważ matematycznie wynik jest taki sam. Zauważyłem, że
+zwiększenie liczby punktów nie zawsze zwiększa dokładność znalezionej liczby. Ustaliłem, że najdokładddniejsze wyniki
+otrzymuje się pomiędzy 100, a 1000 powtórzeń. Można system jeszcze udoskonalić, biorąc średnią z tych wyników,
+co też w programie uczyniłem.

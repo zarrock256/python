@@ -1,0 +1,4 @@
+Wersja rekurencyjna może być łatwiejsza w implementacji, ale będzie mniej wydajna, ponieważ przy każdym
+kolejnym wywołaniu tworzone są nowe stosy, więc taki program będzie pochłaniał więcej zasobów komputera.
+Oczywiście przy małych (i,j) nie ma to większego znaczenia, jednak kiedy będą one rosły, to program będzie
+działał wolniej i wzrośnie jego zapotrzebowanie na zasoby komputera.

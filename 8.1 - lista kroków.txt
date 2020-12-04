@@ -1,0 +1,11 @@
+K01: Sprawdź, czy wszystkie współczynniki nie są jednocześnie równe zeru.
+K02: Jeśli a,b,c są równe zwróc komunikat o tym, że równanie jest równaniem tożsamościowym i 
+	zakończ działanie programu.
+K03: Jeśli a jest równe 0 i b nie jest równe 0, to zwróć komunikat, że rozwiązaniem jest para 
+	y = -c/b i dowolny x i zakończ działanie programu.
+K04: Jeśli a nie jest równe 0 i b jest równe 0, to zwróć komunikat, że rozwiązaniemjest para 
+	x = -c/a i dowolny y i zakończ działanie programu.
+K05: Jeśli a jest równe 0 i b jest równe 0, to zwróć komunikat, że
+	równanie jest sprzeczne i zakończ działanie programu. 
+K06: W reszcie przypadków zwróć komunikat, że rozwiązaniem równania jest para, która spełnia 
+	zależność: x = (-b/a)*y - c/a i y = (-a/b)*x - c/b.
